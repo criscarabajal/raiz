@@ -1,0 +1,159 @@
+@import "colors";
+
+@media (min-width: 1200px) {
+
+    .form-img {
+        display: flex;
+        form {
+            width: 50%;
+            margin: 105px 0 25px 120px;
+            fieldset {
+                border: none;
+                legend {
+                    font-size: 50px;
+                    color: $color-text;
+                    margin-bottom: 25px;    
+                }
+                label {
+                    color: $color-text;
+                }
+                input {
+                    margin: 0px 0 15px 0;
+                    width: 55%;
+                    height: 20px;   
+            
+                }
+                #mensaje {
+                    height: 80px;
+                }
+                #button {
+                    height: 50px;
+                    overflow: hidden;
+                    text-decoration: none;
+                    border: none;
+                    background-color: $verde;
+                    color: $bg-color;
+                    font-size: 15px;
+                    padding: 15px 35px;
+                    margin: 46px 0 20px 0;
+                    border-radius: 5px;
+                    font-weight: 600;
+                    width: 150px;    
+                }
+            }
+        }
+        .imagen-contacto {
+            width: 35%;
+        }
+    }
+    
+
+    
+}
+
+@media (min-width: 577px) and (max-width: 1199px) {
+
+    .form-img {
+        display: flex;
+        form {
+            width: 50%;
+            margin: 105px 0 25px 120px;
+            fieldset {
+                border: none;
+                legend {
+                    font-size: 50px;
+                    color: $color-text;
+                    margin-bottom: 25px;    
+                }
+                label {
+                    color: $color-text;
+                }
+                input {
+                    margin: 0px 0 15px 0;
+                    width: 55%;
+                    height: 20px;   
+            
+                }
+                #mensaje {
+                    height: 80px;
+                }
+                #button {
+                    height: 50px;
+                    overflow: hidden;
+                    text-decoration: none;
+                    border: none;
+                    background-color: $verde;
+                    color: $bg-color;
+                    font-size: 15px;
+                    padding: 15px 35px;
+                    margin: 46px 0 20px 0;
+                    border-radius: 5px;
+                    font-weight: 600;
+                    width: 150px;    
+                }
+            }
+        }
+        .imagen-contacto {
+            width: 35%;
+        }
+    }
+
+
+
+
+
+}
+
+
+@media (max-width: 576px) {
+
+    .form-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        form {
+            text-align: center;
+            width: 100%;
+            margin: 10em 0;
+            fieldset {
+                border: none;
+                legend {
+                    font-size: 50px;
+                    color: $color-text;
+                    margin-bottom: 25px;    
+                }
+                label {
+                    color: $color-text;
+                }
+                input {
+                    margin: 0px 0 15px 0;
+                    width: 55%;
+                    height: 20px;   
+            
+                }
+                #mensaje {
+                    height: 80px;
+                }
+                #button {
+                    height: 50px;
+                    overflow: hidden;
+                    text-decoration: none;
+                    border: none;
+                    background-color: $verde;
+                    color: $bg-color;
+                    font-size: 15px;
+                    padding: 15px 35px;
+                    margin: 46px 0 20px 0;
+                    border-radius: 5px;
+                    font-weight: 600;
+                    width: 150px;    
+                }
+            }
+        }
+        .imagen-contacto {
+            width: 60%;
+        }
+    }
+
+
+}

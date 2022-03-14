@@ -1,0 +1,257 @@
+@import "colors";
+
+@media (min-width: 1200px) {
+    .alquiler {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 6em 0 0 0;
+        .alquiler-texto {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            position: relative;
+            left: 15%;
+            
+            h1 {
+                overflow: hidden;
+                font-size: 50px;
+                font-weight: 300;
+                letter-spacing: 15px;
+                color: #cdd1de;
+                text-align: left;    
+            }
+            p {
+                width: 50%;
+                color: #cdd1de;
+                text-align: left;
+                margin-top: 3em;
+                line-height: 25px;    
+            }
+        }
+        img {
+            width: 150%;
+        }
+
+    }
+
+    .condiciones {
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 8em;
+        h2 {
+            overflow: hidden;
+            font-size: 50px;
+            font-weight: 300;
+            letter-spacing: 15px;
+            color: $color-text;
+            text-align: center;    
+        }
+        .condicion-1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 6em;
+            span {
+                font-size: 120px;
+                font-weight: 300;
+                color: $color-text;
+                
+            }
+            p {
+                width: 50%;
+                color: $color-text;
+                text-align: left;
+                margin: 0 2em;    
+            }
+        }
+        .condicion-2 {
+            @extend .condicion-1;
+            flex-direction: row-reverse;
+            
+        }
+        .condicion-3 {
+            @extend .condicion-1;
+        }
+        .condicion-4 {
+            @extend .condicion-2;
+        }
+        .condiciones-img {
+            width: 30%;
+            position: absolute;
+            top: 140%;
+            left: 80%;
+        }
+    }
+
+
+
+
+}
+
+/* RESPONSIVE TABLET */
+@media (min-width: 577px) and (max-width: 1199px) {
+
+    .alquiler {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 6em;
+        .alquiler-texto {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h1 {
+                overflow: hidden;
+                font-size: 50px;
+                font-weight: 300;
+                letter-spacing: 15px;
+                color: #cdd1de;
+                text-align: left;    
+            }
+            p {
+                width: 80%;
+                color: #cdd1de;
+                text-align: left;
+                margin-top: 3em;
+                line-height: 25px;    
+            }
+        }
+    }
+
+    .condiciones {
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 8em;
+        h2 {
+            overflow: hidden;
+            font-size: 50px;
+            font-weight: 300;
+            letter-spacing: 15px;
+            color: $color-text;
+            text-align: center;    
+        }
+        .condicion-1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 6em;
+            span {
+                font-size: 120px;
+                font-weight: 300;
+                color: $color-text;    
+            }
+            p {
+                width: 50%;
+                color: $color-text;
+                text-align: left;
+                margin-left: 3em;    
+            }
+        }
+        .condicion-2 {
+            flex-direction: row-reverse;
+        }
+        .condicion-4 {
+            flex-direction: row-reverse; 
+        }
+        .condiciones-img {
+            width: 30%;
+            position: absolute;
+            top: 140%;
+            left: 80%;
+        }
+    }
+
+
+}
+
+/* RESPONSIVE SMARTPHONE */
+
+@media (max-width: 576px) {
+
+    .alquiler {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 8em;
+        img {
+            width: 70%;
+        }
+        .alquiler-texto {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h1 {
+                overflow: hidden;
+                font-size: 50px;
+                font-weight: 300;
+                letter-spacing: 15px;
+                color: #cdd1de;
+                text-align: center;   
+            }
+            p {
+                width: 90%;
+                color: #cdd1de;
+                text-align: center;
+                margin-top: 3em;
+                line-height: 25px;    
+            }
+        }
+
+    }
+
+    .condiciones {
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 8em;
+        h2 {
+            overflow: hidden;
+            font-size: 50px;
+            font-weight: 300;
+            letter-spacing: 15px;
+            color: $color-text;
+            text-align: center;    
+        }
+        .condicion-1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 6em;
+            span {
+                font-size: 120px;
+                font-weight: 300;
+                color: $color-text;    
+            }
+            p {
+                width: 50%;
+                color: $color-text;
+                text-align: left;
+                margin-left: 3em;    
+            }
+        }
+        .condicion-2 {
+            flex-direction: row-reverse;
+        }
+        .condicion-4 {
+            flex-direction: row-reverse; 
+        }
+        .condiciones-img {
+            width: 50%;
+            margin-top: 3em;
+            position: relative;
+            left: 25%;
+        }
+    }
+
+
+
+
+
+}

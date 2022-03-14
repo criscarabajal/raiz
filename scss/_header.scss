@@ -1,0 +1,38 @@
+/* HEADER */
+@import "colors";
+
+#sticky-header {
+    position: fixed;
+    z-index: 2;
+    width: 100vw;
+}
+.nav-link {
+    margin: 0 1em;
+}
+
+@media (max-width: 1199px) {
+    .navbar-nav {
+        margin: 1em 0;
+    }
+    .nav-item {
+        margin: .5em 0 !important;   
+    }
+    .icons-header {
+        margin: 1em 0 2em 1em;
+    }
+}
+
+.navbar-brand {
+    margin-right: 25%;
+}
+.ig-icon:hover {
+    color: $verde;
+    cursor: pointer;
+}
+.ig-icon {
+    color: $color-text;
+    margin-right: 2em;
+}
+.fb-icon {
+    @extend .ig-icon;
+}
